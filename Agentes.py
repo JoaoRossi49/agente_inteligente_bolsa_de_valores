@@ -35,7 +35,7 @@ class AgenteNegociador(Agente):
         self.atualizaEstado(cotacaoAtual)
 
     def saida(self):
-        return self.funcaoAgente(self.medias, self.estado[-1])
+        return self.funcaoAgente(self.medias, self.medias[-1],self.estado[-1])
     
 class AgenteDesempenho(AgenteNegociador):
     def __init__(self, estadoInicial, funcaoAgente = None, SaldoR=0, SaldoA=0):

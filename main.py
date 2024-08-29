@@ -26,7 +26,7 @@ amb.adicionaAgente(ag)
 amb.adicionaAgente(ag2)
 amb.executaAmbiente()
 desempenho = amb.desempenhoAgentes()
-print(f'O desempenho dos agentes foram: {desempenho}')
+print(f'O desempenho dos agentes informados foram: {desempenho}')
 
 # Evolução do Desempenho
 x2 = list(range(len(ag.evolucao)))
